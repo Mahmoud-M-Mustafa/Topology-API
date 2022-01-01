@@ -85,7 +85,6 @@ public class ReadDataTest {
 		// Assertions for the fourth component in topology 2
 		Assert.assertEquals(topology2.getComponents().get(3).getId(), "m2");
 		Assert.assertEquals(((Nmos)topology2.getComponents().get(3)).getNet_source(), "vss");
-//		Assert.assertEquals( 1.2,((Nmos)topology2.getComponents().get(3)).getRes_min(),0.0f);
 
 	}
 	
