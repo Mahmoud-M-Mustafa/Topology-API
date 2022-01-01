@@ -1,0 +1,19 @@
+{
+    "id": "top1",
+    "components": [
+      { 
+        "type": "resistor",
+        "id": "res1",
+        "resistance": {
+          "deafult": 100,
+          "ERROR": 10,
+          "max": 1000
+        },
+        "netlist": {
+          "t1": "vdd",
+          "t2": "n1"
+        }
+      }
+
+    ]
+  }
